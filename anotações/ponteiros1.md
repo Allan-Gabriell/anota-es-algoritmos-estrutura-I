@@ -15,7 +15,7 @@
     float* pont_real; - declarei um ponteiro do tipo real;
     char* pont_caracter; - declarei um ponteiro do tipo caracter;
 
-## "%p% formatador do tipo ponteiro
+## "%p formatador do tipo ponteiro
 ## * também é um operador de conteúdo
 
     float var = 3.14;

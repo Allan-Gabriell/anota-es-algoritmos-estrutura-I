@@ -35,7 +35,7 @@ int main(void){
         vetor[n - cont - 1] = vetor_final;
     }
 
-    printf("O vetor invertido é: \n");
+    printf("O vetor invertido e: \n");
     for(cont = 0; cont<n; cont++){
         printf("%d ", vetor[cont]);
     }

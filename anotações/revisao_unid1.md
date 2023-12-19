@@ -19,7 +19,7 @@ Ponteiros são variáveis que armazenam o endereço de memória de outras variá
         printf("%p", ponteiro); - agora vai exibir o valor do endereço armazenado em ponteiro
 
 #### Ponteiro NULL
-- Ponteiro NULL é um ponteiro que não para nenhum objeto
+- Ponteiro NULL é um ponteiro que não aponta para nenhum objeto
 - É usado para indicar ausência de valor
 
 #### Compactibilidade  e conversões de ponteiros

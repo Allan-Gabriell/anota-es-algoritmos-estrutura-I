@@ -3,7 +3,7 @@
 ## Ponteiro
 #### O que são ponteiros
 Ponteiros são variáveis que armazenam o endereço de memória de outras variáveis
-- " * " é o operador de ponteiro e de conteúdo. Contudo, para diferenciar sua utilização devesmo analisar o escopo de declaração.
+- " * " é o operador de ponteiro e de conteúdo. Contudo, para diferenciar sua utilização devemos analisar o escopo de declaração.
 
         int * ponteiro; - aqui eu declarei um ponteiro 
         * ponteiro = 12; - aqui eu modifiquei o conteúdo do ponteiro

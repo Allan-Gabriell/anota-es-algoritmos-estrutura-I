@@ -36,3 +36,14 @@ Ambos os códigos acima fazem a mesma coisa, só muda o uso do &
         - unsigned - é uma palavra reservada do c que aumenta a faixa de representação; usigned int, contudo neste caso só será exibido números positivos
 
 # Aninhamento de estruturas
+
+# Union
+- Semelhante a uma struct
+
+                union dados{
+                        int meu_int;
+                        float meu_float;
+                };
+
+- Diferente do struct que armazena cada variável na memória, o UNION armazena apenas uma variável;
+- Ele armazena um por vez e sempre é o último a ser informado;

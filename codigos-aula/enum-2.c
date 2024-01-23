@@ -1,17 +1,19 @@
 #include <stdio.h>
 
-//Maneira de definir constantes em C
-#define TRUE 0
-#define FALSE 1
+//Enumeração - Enum
+typedef enum bool{
+    True,
+    False
+}Bool;
 
 int main(void){
-    int resposta;
+    Bool resposta;
     printf("Você gosta de algoritmos? \n 0 - true \n 1 - false \n");
     scanf("%d", &resposta);
 
-    if(resposta == TRUE){
+    if(resposta == True){
         printf("Boa escolha\n");
-    } else if(resposta == FALSE){
+    } else if(resposta == False){
         printf("Que pena!\n");
     }
 

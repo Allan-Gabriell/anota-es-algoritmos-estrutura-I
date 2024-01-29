@@ -19,3 +19,14 @@
     * a - para escrita ao final do existente;
     * t - indica modo texto;
     * b - indica modo binário;
+
+- Função de abrir arquivo = fopem;
+- Função de fechar arquivo = fclose;
+- Funções para ler dados:
+    - int fscanf(FILE*fp, char* formado, ...) - escreve uma string
+    - int fgetc(FILE*fp) - pega um caracter dentro do arquivo e esse será o primeiro
+    - char* fgets(char* s, int n, FILE* fp) - pega uma string dentro do arquivo
+- Função de escrita de dados:
+    - fputc - escreve um único caractere por vez;
+    - fputs - escreve uma string;
+    - fprintf - 
